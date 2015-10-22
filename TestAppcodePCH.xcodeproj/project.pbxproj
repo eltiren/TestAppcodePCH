@@ -21,6 +21,7 @@
 		77DBD07A1BD90C350082C22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77DBD07D1BD90C350082C22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		77DBD07F1BD90C350082C22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77DBD0851BD90C620082C22F /* TestAppcodePCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppcodePCH.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 			children = (
 				77DBD0741BD90C350082C22F /* AppDelegate.h */,
 				77DBD0751BD90C350082C22F /* AppDelegate.m */,
+				77DBD0851BD90C620082C22F /* TestAppcodePCH.pch */,
 				77DBD07A1BD90C350082C22F /* Assets.xcassets */,
 				77DBD07C1BD90C350082C22F /* MainMenu.xib */,
 				77DBD07F1BD90C350082C22F /* Info.plist */,
@@ -243,6 +245,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/${PROJECT}/TestAppcodePCH.pch";
 				INFOPLIST_FILE = TestAppcodePCH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rollncode.TestAppcodePCH;
@@ -255,6 +259,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/${PROJECT}/TestAppcodePCH.pch";
 				INFOPLIST_FILE = TestAppcodePCH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rollncode.TestAppcodePCH;

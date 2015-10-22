@@ -1,0 +1,15 @@
+//
+//  TestAppcodePCH.pch
+//  TestAppcodePCH
+//
+//  Created by Vitaly Evtushenko on 10/22/15.
+//  Copyright © 2015 Roll'n'Code (rollncode.com). All rights reserved.
+//
+
+#ifndef TestAppcodePCH_pch
+#define TestAppcodePCH_pch
+
+#import <Foundation/Foundation.h>
+#import <AppKit/AppKit.h>
+
+#endif /* TestAppcodePCH_pch */
